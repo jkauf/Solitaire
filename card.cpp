@@ -106,29 +106,3 @@ bool operator==(const Card& card1, const Card& card2)
 {
 	return (card1.value == card2.value && card1.suit == card2.suit && card1.color == card2.color);
 }
-
-/*
-void Card::printCard()
-{
-//cout << value;
-switch (suit)
-{
-case clubs: cout << value << " club ";
-break;
-case diamonds: cout << value << " diamond ";
-break;
-case hearts: cout << value << " heart ";
-break;
-case spades: cout << value << " spade ";
-break;
-}
-
-switch (color)
-{
-case red: cout << "red";
-break;
-case black: cout << "black";
-break;
-}
-}
-*/
