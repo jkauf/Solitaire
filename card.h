@@ -16,14 +16,11 @@ class Card
 public:
 	Card();
 	Card(int value, st suit, clr color);
-	//~Card();
-	//void printCard();
 	void flipCard();
 	int getVal();
 	st getSuit();
 	clr getColor();
 	bool getShow();
-	//char* printVal();
 private:
 	int value;
 	st suit;
